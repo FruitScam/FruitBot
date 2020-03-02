@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 import telebot
 from telebot import *
 import csv
 from telegram.ext import Filters
 from telegram.ext import MessageHandler
 from telegram.ext import Updater
-import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
+
 
 '''
 	Дорогой программист, если ты читаешь это,
@@ -125,4 +126,4 @@ def keyboard3():
 	return markup
 
 if __name__ == '__main__':
-	bot.polling(none_stop=True)
+	bot.polling()
