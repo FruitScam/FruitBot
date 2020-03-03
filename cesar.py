@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import sys
-sys.setdefaultencoding('utf8')
 import telebot
 from telebot import *
 import csv
